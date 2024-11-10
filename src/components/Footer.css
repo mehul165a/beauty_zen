@@ -1,0 +1,147 @@
+.footer {
+  background-color: #111;
+  color: #ffffff;
+  padding: 2rem;
+  font-size: 0.9rem;
+  font-family: 'Prompt', sans-serif;
+}
+
+.logo-info .logo img {
+  width: 120px;
+  height: auto;
+  margin-bottom: 0.5rem;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #333;
+  padding-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.footer-section {
+  flex: 1;
+  padding: 0 1rem;
+  color: #ffffff; 
+}
+
+.footer-section h4 {
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #ffffff; 
+}
+
+.quick-links ul {
+  list-style: none;
+}
+
+.quick-links li {
+  margin: 0.3rem 0;
+}
+
+.quick-links li a {
+  color: #ffffff; 
+  text-decoration: none;
+}
+
+.quick-links li a::before {
+  content: "\203A ";
+  color: #d88b7c;
+}
+
+.quick-links li a:hover {
+  color: #d88b7c;
+}
+
+.logo-info {
+  border-left: 1px solid #555;
+  border-right: 1px solid #555;
+  padding: 0 1.5rem;
+  text-align: center;
+  color: #ffffff; 
+}
+
+.logo-info .logo {
+  font-family: 'Prata', serif;
+  font-size: 1.5rem;
+  color: #d88b7c;
+  margin-bottom: 0.5rem;
+}
+
+.logo-info p {
+  color: #ffffff; 
+}
+
+.contact-info p {
+  margin: 0.3rem 0;
+  color: #ffffff; 
+}
+
+.footer-middle {
+  margin-top: 1.5rem;
+}
+
+.concerns-treatments {
+  width: 100%;
+  color: #cccccc;
+}
+
+.tab-headings {
+  display: flex;
+  gap: 2rem;
+}
+
+.tab-headings h4 {
+  cursor: pointer;
+  color: #888;
+  font-weight: bold;
+}
+
+.tab-headings .active {
+  color: #ffffff;
+  border-bottom: 2px solid #ffffff;
+  padding-bottom: 0.2rem;
+}
+
+.concerns-content {
+  background-color: #333333;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-top: 0;
+}
+
+.concern-heading {
+  color: #d88b7c; 
+  font-family: 'Prata', serif;
+  font-weight: normal;
+  display: inline-block;
+  margin-bottom: 0.2rem;
+}
+
+.concerns-content p {
+  margin: 0.5rem 0;
+  line-height: 1.4;
+  color: #ffffff; 
+}
+
+.treatments-content {
+  padding: 1rem 0;
+  color: #cccccc;
+}
+
+.footer-bottom {
+  text-align: center;
+  color: #888888;
+  padding-top: 1.5rem;
+  border-top: 1px solid #333;
+  margin-top: 1.5rem;
+}
+
+.disclaimer {
+  font-size: 0.75rem;
+  margin-bottom: 1rem;
+  color: #888;
+  line-height: 1.4;
+  padding: 0 1rem;
+}

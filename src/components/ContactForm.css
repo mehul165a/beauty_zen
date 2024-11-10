@@ -1,0 +1,97 @@
+.contact-form-container {
+  background-color: #fbe7e3;
+  padding: 3rem;
+  border-radius: 8px;
+  max-width: 700px; 
+  margin: auto;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); 
+  font-family: 'Prompt', sans-serif;
+  color: #333333;
+}
+
+.contact-form-container h2 {
+  font-family: 'Prata', serif;
+  font-size: 2rem;
+  color: #333333;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+
+.form-divider {
+  width: 60px;
+  height: 3px;
+  background-color: #d88b7c; 
+  margin: 0.5rem auto 2rem;
+}
+
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem; 
+}
+
+
+.form-row {
+  display: flex;
+  gap: 1rem;
+}
+
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.form-group label {
+  font-size: 0.9rem;
+  color: #333333;
+  margin-bottom: 0.2rem; 
+  font-weight: normal;
+  width: 100%;
+}
+
+.contact-form input,
+.contact-form textarea {
+  border: none;
+  border-bottom: 1px solid #333333; 
+  padding: 0.3rem 0; 
+  font-size: 1rem;
+  background: transparent;
+  color: #333333;
+  outline: none;
+  font-family: 'Prompt', sans-serif;
+  width: 100%;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-bottom: 1px solid #d88b7c; 
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form input[type="tel"] {
+  width: calc(100% - 4px); 
+}
+
+.submit-button {
+  align-self: flex-end;
+  background-color: #d88b7c;
+  color: #ffffff;
+  padding: 0.6rem 2rem;
+  border: none;
+  border-radius: 20px; 
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  font-family: 'Prompt', sans-serif;
+  margin-top: 1.5rem;
+}
+
+.submit-button:hover {
+  background-color: #c07d6d; 
+}

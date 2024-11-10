@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&family=Prompt:wght@400;500;700&display=swap');
+
+:root {
+  --primary-color: #d88b7c;
+  --secondary-color: #fbe7e3;
+  --text-color: #333333;
+  --light-text-color: #555555; 
+  --footer-bg-color: #111111; 
+  --footer-text-color: #ffffff;
+  --border-color: #dddddd;
+  --highlight-color: #efcfc3;
+  --heading-font: 'Prata', serif;
+  --body-font: 'Prompt', sans-serif;
+  --font-size: 16px;
+  --button-radius: 4px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--body-font);
+  color: var(--text-color);
+  font-size: var(--font-size);
+  line-height: 1.6;
+  background-color: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
+  color: var(--text-color);
+  margin-bottom: 0.5rem;
+}
+
+p, a, li, span, input, textarea, button {
+  font-family: var(--body-font);
+  color: var(--text-color);
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: #c07d6d; 
+}
+
+button {
+  background-color: var(--primary-color);
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: var(--button-radius);
+  cursor: pointer;
+  font-family: var(--body-font);
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #c07d6d;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem 0;
+}

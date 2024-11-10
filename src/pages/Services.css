@@ -1,0 +1,76 @@
+.services-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.services-container {
+  width: 100%;
+}
+
+.white-bg {
+  background-color: #ffffff;
+  padding: 2rem 1rem;
+}
+
+.cream-bg {
+  background-color: #fbe7e3;
+  padding: 2rem 1rem;
+}
+
+.services-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.services-header h2 {
+  font-family: 'Prata', serif;
+  color: #333333;
+  font-size: 2rem;
+}
+
+.view-all-button {
+  background-color: #d88b7c;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 20px;
+  font-family: 'Prata', serif;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.view-all-button:hover {
+  background-color: #c07d6d;
+}
+
+.service-cards-row {
+  display: flex;
+  justify-content: space-around;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  padding: 1.5rem 0;
+}
+
+.why-choose-container {
+  padding: 2rem 1rem;
+  width: 100%;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.why-choose-container h2 {
+  font-family: 'Prata', serif;
+  font-size: 2rem;
+  color: #333333;
+  margin-bottom: 1.5rem;
+}
+
+.why-choose-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}

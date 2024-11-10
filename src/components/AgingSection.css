@@ -1,0 +1,143 @@
+.aging-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 2rem;
+  background-color: #ffffff; 
+  position: relative;
+  margin-bottom: 8rem;
+}
+
+.aging-image {
+  width: 35%;
+}
+
+.aging-content-wrapper {
+  position: relative;
+  width: 500px; 
+  margin-right: 2rem; 
+}
+
+.stroke-box {
+  position: absolute;
+  left: -20px;
+  bottom: -200px; 
+  width: 250px;
+  height: 250px;
+  border: 8px solid #d88b7c; 
+  z-index: 0; 
+  border-radius: 0;
+  margin-top: 3.7rem; 
+  margin-left: 1.5rem;
+}
+
+.aging-content {
+  position: relative;
+  background-color: #fbe7e3;
+  width: 500px;
+  height: 550px; 
+  margin-left: 2rem;
+  padding: 1rem;
+  z-index: 1; 
+  border-radius: 0; 
+}
+
+.aging-content h2 {
+  font-family: 'Prata', serif;
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.carousel-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.carousel-arrow {
+  background-color: #d88b7c; 
+  border: none;
+  color: #ffffff;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 1.2rem; 
+}
+
+.carousel-options {
+  display: flex;
+  gap: 0.5rem;
+  overflow: hidden;
+}
+
+.carousel-option {
+  padding: 0.3rem 0.6rem;
+  border-radius: 0; 
+  background-color: #ffffff;
+  color: #d88b7c;
+  font-family: 'Prompt', sans-serif;
+  cursor: pointer;
+}
+
+.carousel-option.active {
+  background-color: #d88b7c; 
+  color: #ffffff;
+}
+
+.option-description {
+  margin-top: 0.5rem;
+}
+
+.option-description h3 {
+  font-family: 'Prata', serif;
+  font-size: 1.2rem;
+  color: #bf6159;
+  margin-bottom: 0.5rem;
+}
+
+.option-description p {
+  font-size: 0.9rem;
+  color: #333333;
+  line-height: 1.4;
+}
+
+.read-more-button {
+  background-color: #bf6159;
+  color: #ffffff;
+  border: none;
+  padding: 0.3rem 0.8rem;
+  cursor: pointer;
+  margin-top: 0.5rem;
+}
+
+.treatments-heading {
+  margin-top: 1.5rem;
+  font-family: 'Prata', serif;
+  font-size: 1.3rem;
+  color: #333;
+}
+
+.treatments-row {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.treatments-row div {
+  display: flex;
+  align-items: center;
+  font-family: 'Prompt', sans-serif;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.treatment-logo {
+  width: 15px;
+  height: 15px;
+  margin-right: 0.3rem;
+}

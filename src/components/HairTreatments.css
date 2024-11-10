@@ -1,0 +1,138 @@
+.hair-treatments-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 2rem;
+    background-color: #fbe7e3;
+  }
+  
+  .hair-treatments-content {
+    flex: 1;
+    margin-right: 2rem;
+  }
+  
+  .hair-treatments-content > * {
+    margin-bottom: 5rem; 
+  }
+  
+  .hair-treatments-content h2 {
+    font-family: 'Prata', serif;
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .carousel-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5rem;
+    overflow-x: hidden;
+  }
+  
+  .carousel-arrow {
+    background-color: #d88b7c;
+    border: none;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 1.5rem;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .carousel-arrow:hover {
+    background-color: #bf6159;
+  }
+  
+  .carousel-options {
+    display: flex;
+    gap: 1rem;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    width: 300px; 
+  }
+  
+  .carousel-option {
+    background-color: #fff;
+    border: 1px solid #d88b7c;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    font-family: 'Prompt', sans-serif;
+    color: #d88b7c;
+    cursor: pointer;
+    min-width: 100px;
+    text-align: center;
+    flex-shrink: 0;
+  }
+  
+  .carousel-option.active {
+    background-color: #d88b7c;
+    color: #fff;
+  }
+  
+  .option-description h3 {
+    font-family: 'Prata', serif;
+    color: #bf6159;
+    margin-bottom: 0.5rem;
+  }
+  
+  .option-description p {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.5;
+  }
+  
+  .read-more-button {
+    background-color: #d88b7c;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  
+  .read-more-button:hover {
+    background-color: #bf6159;
+  }
+  
+  .treatments-list h3 {
+    font-family: 'Prata', serif;
+    color: #333;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .treatments-row {
+    display: flex;
+    justify-content: flex-start;
+    gap: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .treatments-row div {
+    display: flex;
+    align-items: center;
+    font-family: 'Prompt', sans-serif;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .treatment-logo {
+    width: 20px;
+    height: 20px;
+    margin-right: 0.5rem;
+  }
+  
+  .hair-treatments-image {
+    flex: 1;
+  }
+  
+  .treatment-image {
+    width: 100%;
+    border-radius: 8px;
+  }
+  

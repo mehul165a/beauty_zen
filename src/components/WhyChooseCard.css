@@ -1,0 +1,42 @@
+.why-choose-card {
+    background-color: #fbe7e3;
+    width: 200px;
+    padding: 1.5rem 1rem;
+    text-align: center;
+    font-family: 'Prompt', sans-serif;
+    color: #333333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease;
+    align-items: center;
+    position: relative;
+    margin-top: 45px; 
+  }
+
+  .why-choose-card:hover {
+    transform: translateY(-5px);
+  }
+  
+ 
+  .icon-container {
+    width: 70px;
+    height: 70px;
+    background-color: #d88b7c; 
+    border: 5px solid #BF6159;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: -35px;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #333333;
+    line-height: 1.4;
+    margin-top: 50px; 
+  }
+  
