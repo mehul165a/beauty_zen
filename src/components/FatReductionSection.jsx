@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './FatReductionSection.css';
-import beautyZenLogo from '../assets/beautyzen-logo.png'; // Ensure the path to your logo is correct
+import beautyZenLogo from '/assets/beautyzen-logo.png'; // Ensure the path to your logo is correct
 
 const fatReductionOptions = [
   {

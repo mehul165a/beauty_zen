@@ -4,7 +4,7 @@ import "./AcneSection.css";
 const AcneSection = () => {
   return (
     <section className="acne-section">
-      <img src="./src/assets/acne-image.png" alt="Acne Treatment" className="acne-image" />
+      <img src=".//assets/acne-image.png" alt="Acne Treatment" className="acne-image" />
       <div className="acne-content-wrapper">
         <div className="stroke-box"></div>
         <div className="acne-content">
@@ -25,13 +25,13 @@ const AcneSection = () => {
           </div>
           <h3 className="treatments-heading">TREATMENTS AT BEAUTYZEN</h3>
           <div className="treatments-row">
-            <div><img src="./src/assets/beautyzen-logo.png" alt="Icon" className="treatment-logo" /> ClearSkin</div>
-            <div><img src="./src/assets/beautyzen-logo.png" alt="Icon" className="treatment-logo" /> Carbon Facial</div>
-            <div><img src="./src/assets/beautyzen-logo.png" alt="Icon" className="treatment-logo" /> Hydrafacial MD</div>
+            <div><img src=".//assets/beautyzen-logo.png" alt="Icon" className="treatment-logo" /> ClearSkin</div>
+            <div><img src=".//assets/beautyzen-logo.png" alt="Icon" className="treatment-logo" /> Carbon Facial</div>
+            <div><img src=".//assets/beautyzen-logo.png" alt="Icon" className="treatment-logo" /> Hydrafacial MD</div>
           </div>
           <div className="treatments-row">
-            <div><img src="./src/assets/beautyzen-logo.png" alt="Icon" className="treatment-logo" /> Medifacial</div>
-            <div><img src="./src/assets/beautyzen-logo.png" alt="Icon" className="treatment-logo" /> Chemical Peels</div>
+            <div><img src=".//assets/beautyzen-logo.png" alt="Icon" className="treatment-logo" /> Medifacial</div>
+            <div><img src=".//assets/beautyzen-logo.png" alt="Icon" className="treatment-logo" /> Chemical Peels</div>
           </div>
         </div>
       </div>

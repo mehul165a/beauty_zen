@@ -4,7 +4,7 @@ import "./Header.css";
 const Header = () => (
   <header className="header">
     <div className="logo">
-      <img src="./src/assets/beautyzen-logo.png" alt="BeautyZen Logo" className="logo-image" />
+      <img src=".//assets/beautyzen-logo.png" alt="BeautyZen Logo" className="logo-image" />
     </div>
     <nav className="nav-links">
       <a href="/" className="nav-item">Home</a>

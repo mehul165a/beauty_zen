@@ -26,17 +26,17 @@ const AgingSection = () => {
           </div>
           <h3 className="treatments-heading">TREATMENTS AT BEAUTYZEN</h3>
           <div className="treatments-row">
-            <div><img src="./src/assets/beautyzen-logo.png" alt="Icon" className="treatment-logo" /> HIFU</div>
-            <div><img src="./src/assets/beautyzen-logo.png" alt="Icon" className="treatment-logo" /> Anti Wrinkle Injections</div>
-            <div><img src="./src/assets/beautyzen-logo.png" alt="Icon" className="treatment-logo" /> Derma Pen World 4</div>
+            <div><img src=".//assets/beautyzen-logo.png" alt="Icon" className="treatment-logo" /> HIFU</div>
+            <div><img src=".//assets/beautyzen-logo.png" alt="Icon" className="treatment-logo" /> Anti Wrinkle Injections</div>
+            <div><img src=".//assets/beautyzen-logo.png" alt="Icon" className="treatment-logo" /> Derma Pen World 4</div>
           </div>
           <div className="treatments-row">
-            <div><img src="./src/assets/beautyzen-logo.png" alt="Icon" className="treatment-logo" /> ClearLift</div>
-            <div><img src="./src/assets/beautyzen-logo.png" alt="Icon" className="treatment-logo" /> Dermal Fillers</div>
+            <div><img src=".//assets/beautyzen-logo.png" alt="Icon" className="treatment-logo" /> ClearLift</div>
+            <div><img src=".//assets/beautyzen-logo.png" alt="Icon" className="treatment-logo" /> Dermal Fillers</div>
           </div>
         </div>
       </div>
-      <img src="./src/assets/aging-image.png" alt="Aging Treatment" className="aging-image" />
+      <img src=".//assets/aging-image.png" alt="Aging Treatment" className="aging-image" />
     </section>
   );
 };

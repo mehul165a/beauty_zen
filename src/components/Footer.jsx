@@ -18,7 +18,7 @@ const Footer = () => {
         
         <div className="footer-section logo-info">
           <div className="logo">
-            <img src="/src/assets/beautyzen-logo.png" alt="BeautyZen Logo" className="beautyzen-logo" />
+            <img src="//assets/beautyzen-logo.png" alt="BeautyZen Logo" className="beautyzen-logo" />
           </div>
           <p>Contact Us! If you want to achieve beautiful skin, stronger hair, and enhanced overall appearance.</p>
         </div>

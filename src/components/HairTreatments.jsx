@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './HairTreatments.css';
-import beautyZenLogo from '../assets/beautyzen-logo.png'; // Add the correct path to the logo
+import beautyZenLogo from '/assets/beautyzen-logo.png'; // Add the correct path to the logo
 
 const hairOptions = [
   { label: 'Hair Loss', description: 'Our hair loss doctors conduct a deep analysis of your concern. Upon finding the cause of hair loss, we serve you with the best surgical or non-surgical hair restoration treatments at the Centre.' },

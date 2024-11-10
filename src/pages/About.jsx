@@ -5,7 +5,7 @@ import WhyChooseCard from "../components/WhyChooseCard";
 const About = () => (
   <div className="about-page">
     <div className="banner">
-      <img src="./src/assets/banner-image.png" alt="Banner" className="banner-image" />
+      <img src=".//assets/banner-image.png" alt="Banner" className="banner-image" />
     </div>
 
     <section className="about-section">
@@ -14,7 +14,7 @@ const About = () => (
         <em>Wishing for happy, healthy, beautiful skin at all times?<br /> That's possible with us!</em>
       </p>
       <div className="about-content">
-        <img src="./src/assets/about-1.png" alt="BeautyZen Interior" className="about-image" />
+        <img src=".//assets/about-1.png" alt="BeautyZen Interior" className="about-image" />
         <p className="about-description">
           Welcome to BeautyZen, one of India’s premier skin and aesthetic centers, conveniently located across multiple
           locations in Mumbai, Maharashtra. Here, we blend world-class treatments with the expertise of top aestheticians,
@@ -29,7 +29,7 @@ const About = () => (
       </div>
       
       <div className="quote-box">
-        <img src="./src/assets/beautyzen-logo.png" alt="BeautyZen Logo" className="logo" />
+        <img src=".//assets/beautyzen-logo.png" alt="BeautyZen Logo" className="logo" />
         <p className="quote-box-text">
           Mumbai has recently become a top destination for cosmetic treatments. Whether invasive or
           non-invasive, BeautyZen provides you with the very best.
@@ -57,7 +57,7 @@ const About = () => (
           a comprehensive assessment to create a customized treatment plan aligned with your personal aspirations. 
           At BeautyZen, we bring out the best in you, so you can look and feel fantastic, inside and out.
         </p>
-        <img src="./src/assets/about-2.png" alt="Center" className="premium-image" />
+        <img src=".//assets/about-2.png" alt="Center" className="premium-image" />
       </div>
       <p className="premium-description-below">
         At BeautyZen, we welcome individuals of all ages and genders, offering comprehensive solutions to address a full 
@@ -81,37 +81,37 @@ const About = () => (
   <div className="features-cards">
     <div className="feature-card">
       <div className="feature-icon-container">
-        <img src="./src/assets/cost-efficient-quality-care-icon.svg" alt="Icon 1" className="feature-icon" />
+        <img src=".//assets/cost-efficient-quality-care-icon.svg" alt="Icon 1" className="feature-icon" />
       </div>
       <p>Cost-efficient Quality Care</p>
     </div>
     <div className="feature-card">
       <div className="feature-icon-container">
-        <img src="./src/assets/cutting-edge-icon.svg" alt="Icon 2" className="feature-icon" />
+        <img src=".//assets/cutting-edge-icon.svg" alt="Icon 2" className="feature-icon" />
       </div>
       <p>Cutting Edge Technologies</p>
     </div>
     <div className="feature-card">
       <div className="feature-icon-container">
-        <img src="./src/assets/experienced-team-icon.svg" alt="Icon 3" className="feature-icon" />
+        <img src=".//assets/experienced-team-icon.svg" alt="Icon 3" className="feature-icon" />
       </div>
       <p>Experienced Team</p>
     </div>
     <div className="feature-card">
       <div className="feature-icon-container">
-        <img src="./src/assets/advanced-skin-icon.svg" alt="Icon 4" className="feature-icon" />
+        <img src=".//assets/advanced-skin-icon.svg" alt="Icon 4" className="feature-icon" />
       </div>
       <p>Advanced Skin Concerns, Cosmetic & Plastic Surgery treatments</p>
     </div>
     <div className="feature-card">
       <div className="feature-icon-container">
-        <img src="./src/assets/COVID-19-icon.svg" alt="Icon 5" className="feature-icon" />
+        <img src=".//assets/COVID-19-icon.svg" alt="Icon 5" className="feature-icon" />
       </div>
       <p>Follows all COVID 19 Guidelines</p>
     </div>
     <div className="feature-card">
       <div className="feature-icon-container">
-        <img src="./src/assets/client-satisfaction-icon.svg" alt="Icon 6" className="feature-icon" />
+        <img src=".//assets/client-satisfaction-icon.svg" alt="Icon 6" className="feature-icon" />
       </div>
       <p>100% Client Satisfaction</p>
     </div>
@@ -136,23 +136,23 @@ If you’re ready to feel great in your skin and confident in your body, reach o
       <div className="why-choose-cards">
         <WhyChooseCard 
           text="World Class Luxurious Infrastructure" 
-          icon={<img src="./src/assets/world-class-container.svg" alt="World Class Icon" style={{ width: "30px", height: "30px" }} />} 
+          icon={<img src=".//assets/world-class-container.svg" alt="World Class Icon" style={{ width: "30px", height: "30px" }} />} 
         />
         <WhyChooseCard 
           text="World best and US FDA approved Technologies" 
-          icon={<img src="./src/assets/world-best-container.svg" alt="FDA Approved Icon" style={{ width: "30px", height: "30px" }} />} 
+          icon={<img src=".//assets/world-best-container.svg" alt="FDA Approved Icon" style={{ width: "30px", height: "30px" }} />} 
         />
         <WhyChooseCard 
           text="Experienced and Qualified Experts" 
-          icon={<img src="./src/assets/experienced-container.svg" alt="Qualified Experts Icon" style={{ width: "30px", height: "30px" }} />} 
+          icon={<img src=".//assets/experienced-container.svg" alt="Qualified Experts Icon" style={{ width: "30px", height: "30px" }} />} 
         />
         <WhyChooseCard 
           text="Best Results at Affordable Cost" 
-          icon={<img src="./src/assets/best-results-container.svg" alt="Affordable Cost Icon" style={{ width: "30px", height: "30px" }} />} 
+          icon={<img src=".//assets/best-results-container.svg" alt="Affordable Cost Icon" style={{ width: "30px", height: "30px" }} />} 
         />
         <WhyChooseCard 
           text="Open All 7 Days a Week" 
-          icon={<img src="./src/assets/7days-container.svg" alt="Open All Week Icon" style={{ width: "30px", height: "30px" }} />} 
+          icon={<img src=".//assets/7days-container.svg" alt="Open All Week Icon" style={{ width: "30px", height: "30px" }} />} 
         />
       </div>
     </section>

@@ -11,7 +11,7 @@ const carouselData = [
   {
     title: "SOPRANO TITANIUM LASER",
     description: "The Soprano Titanium Laser is excellent for removing unwanted hair. Its innovative 3D technology combines the three most efficient hair removal laser wavelengths (755nm, 810nm, and 1064nm) into a single applicator. It improves the skin's quality, smoothes it, and removes dryness and ingrown hairs. The most widely utilized lasers by laser professionals can eradicate pimples, irritations, and even the slightest skin imperfections.",
-    image: "./src/assets/soprano-image.png"
+    image: ".//assets/soprano-image.png"
   },
   {
     title: "Advanced Treatment 2",
@@ -57,7 +57,7 @@ const Home = () => {
           <p>Our skin care clinic best dermatologists in India offer premium aesthetics.</p>
           <button className="hero-button">Read more</button>
         </div>
-        <img src="./src/assets/home-banner.png" alt="Facial Treatment" className="hero-image" />
+        <img src=".//assets/home-banner.png" alt="Facial Treatment" className="hero-image" />
       </section>
 
       <section className="welcome-section">
@@ -104,30 +104,30 @@ const Home = () => {
         <div className="why-choose-cards">
           <WhyChooseCard 
             text="World Class Luxurious Infrastructure" 
-            icon={<img src="./src/assets/world-class-icon.svg" alt="World Class Icon" style={{ width: "30px", height: "30px" }} />} 
+            icon={<img src=".//assets/world-class-icon.svg" alt="World Class Icon" style={{ width: "30px", height: "30px" }} />} 
           />
           <WhyChooseCard 
             text="World best and US FDA approved Technologies" 
-            icon={<img src="./src/assets/fda-approved-icon.svg" alt="FDA Approved Icon" style={{ width: "30px", height: "30px" }} />} 
+            icon={<img src=".//assets/fda-approved-icon.svg" alt="FDA Approved Icon" style={{ width: "30px", height: "30px" }} />} 
           />
           <WhyChooseCard 
             text="Experienced and Qualified Experts" 
-            icon={<img src="./src/assets/qualified-experts-icon.svg" alt="Qualified Experts Icon" style={{ width: "30px", height: "30px" }} />} 
+            icon={<img src=".//assets/qualified-experts-icon.svg" alt="Qualified Experts Icon" style={{ width: "30px", height: "30px" }} />} 
           />
           <WhyChooseCard 
             text="Best Results at Affordable Cost" 
-            icon={<img src="./src/assets/affordable-cost-icon.svg" alt="Affordable Cost Icon" style={{ width: "30px", height: "30px" }} />} 
+            icon={<img src=".//assets/affordable-cost-icon.svg" alt="Affordable Cost Icon" style={{ width: "30px", height: "30px" }} />} 
           />
           <WhyChooseCard 
             text="Open All 7 Days a Week" 
-            icon={<img src="./src/assets/open-7-days-icon.svg" alt="Open All Week Icon" style={{ width: "30px", height: "30px" }} />} 
+            icon={<img src=".//assets/open-7-days-icon.svg" alt="Open All Week Icon" style={{ width: "30px", height: "30px" }} />} 
           />
         </div>
       </section>
 
       <section className="carousel-section">
         <div className="carousel-left">
-          <img src="./src/assets/home-last.png" alt="Clinic Room" className="carousel-static-image" />
+          <img src=".//assets/home-last.png" alt="Clinic Room" className="carousel-static-image" />
         </div>
         <div className="carousel-right">
           <img
